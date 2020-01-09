@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="Don&apos;t look in the mirror, look out the window.">
+<meta name="description" content="// 基于准备好的dom，初始化echarts实例         var myChart = echarts.init(document.getElementById(&apos;echarts5954&apos;));         // 指定图表的配置项和数据         var option = {     title: {         text: &quot;某地区蒸发量和降水量&quot;,">
 <meta property="og:type" content="website">
 <meta property="og:title" content="足迹">
 <meta property="og:url" content="http://tudouplanet.com/footprint/index.html">
 <meta property="og:site_name" content="Tudou">
-<meta property="og:description" content="Don&apos;t look in the mirror, look out the window.">
+<meta property="og:description" content="// 基于准备好的dom，初始化echarts实例         var myChart = echarts.init(document.getElementById(&apos;echarts5954&apos;));         // 指定图表的配置项和数据         var option = {     title: {         text: &quot;某地区蒸发量和降水量&quot;,">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-01-09T07:25:48.318Z">
+<meta property="og:updated_time" content="2020-01-09T08:34:58.460Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="足迹">
-<meta name="twitter:description" content="Don&apos;t look in the mirror, look out the window.">
+<meta name="twitter:description" content="// 基于准备好的dom，初始化echarts实例         var myChart = echarts.init(document.getElementById(&apos;echarts5954&apos;));         // 指定图表的配置项和数据         var option = {     title: {         text: &quot;某地区蒸发量和降水量&quot;,">
 
 
 
@@ -267,7 +267,51 @@
       <div class="post-body">
         
         
-          
+          <div id="echarts5954" style="width: 80%;height: 400px;margin: 0 auto"></div>
+<script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
+<script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('echarts5954'));
+        // 指定图表的配置项和数据
+        var option = {
+    title: {
+        text: "某地区蒸发量和降水量",
+        subtext: "纯属虚构"
+    },
+    tooltip: {
+        trigger: "axis"
+    },
+    legend: {
+        data: ["蒸发量","降水量"]
+    },
+    xAxis: [
+        {
+            type: "category",
+            data: ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"]
+        }
+    ],
+    yAxis: [
+        {
+            type: "value"
+        }
+    ],
+    series: [
+        {
+            name: "蒸发量",
+            type: "bar",
+            data: [2,4.9,7,23.2,25.6,76.7,135.6,162.2,32.6,20,6.4,3.3]
+        },
+        {
+            name: "降水量",
+            type: "bar",
+            data: [2.6,5.9,9,26.4,28.7,70.7,175.6,182.2,48.7,18.8,6,2.3]
+        }
+    ]
+}
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+</script>
+
         
       </div>
       

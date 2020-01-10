@@ -483,7 +483,7 @@ option = {
         }
     },
     geo: {
-        map: 'china',
+        map: 'world',
         label: {
             emphasis: {
                 show: false

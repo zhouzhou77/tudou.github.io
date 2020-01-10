@@ -527,7 +527,7 @@ option = {
             },
             itemStyle: {
                 normal: {
-                    color: '#ff7f50',
+                    color: '#003153',
                     shadowBlur: 10,
                     shadowColor: '#333'
                 }

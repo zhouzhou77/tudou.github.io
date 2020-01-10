@@ -529,7 +529,7 @@ option = {
                 normal: {
                     color: '#003153',
                     shadowBlur: 10,
-                    shadowColor: '#333'
+                    shadowColor: '#dda0dd'
                 }
             },
             zlevel: 1

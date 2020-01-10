@@ -502,7 +502,7 @@ option = {
             },
             emphasis: {
                 show: 'true',
-                color: "rgba(37, 43, 61, .5)", //悬浮背景
+                color: '#dda0dd', //悬浮背景
                 areaColor: '#cccccc'
             }
         }

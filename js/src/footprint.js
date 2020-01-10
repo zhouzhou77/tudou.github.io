@@ -485,18 +485,24 @@ option = {
     },
     geo: {
         map: 'world',
+        show: true,
         label: {
             emphasis: {
                 show: false
             }
         },
-        roam: false,
+        roam: true,
+        layoutCenter: ["50%", "50%"], //地图位置
+        layoutSize: "120%",
         itemStyle: {
             normal: {
-                areaColor: '#e6e6e6',
-                borderColor: '#111'
+                show: 'true',
+                areaColor: '#04284e',
+                borderColor: '#5bc1c9'
             },
             emphasis: {
+                show: 'true',
+                color: "rgba(37, 43, 61, .5)", //悬浮背景
                 areaColor: '#cccccc'
             }
         }

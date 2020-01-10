@@ -461,7 +461,7 @@ var convertData = function (data) {
 };
 
 option = {
-    // backgroundColor: '#404a59',
+    backgroundColor: '#000',
     title: {
     },
     tooltip: {
@@ -498,13 +498,13 @@ option = {
             normal: {
                 show: 'true',
                 color: "#04284e", //地图背景色
-                areaColor: '#e6e6e6',
+                //areaColor: '#e6e6e6',
                 borderColor: '#5bc1c9'
             },
             emphasis: {
                 show: 'true',
                 color: "rgba(37, 43, 61, .5)", //悬浮背景
-                areaColor: '#cccccc'
+                //areaColor: '#cccccc'
             }
         }
     },

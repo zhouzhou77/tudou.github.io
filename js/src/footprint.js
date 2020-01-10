@@ -503,7 +503,7 @@ option = {
             emphasis: {
                 show: 'true',
                 color: '#dda0dd', //悬浮背景
-                areaColor: '#cccccc'
+                areaColor: '#dda0dd'
             }
         }
     },
@@ -529,7 +529,7 @@ option = {
                 normal: {
                     color: '#003153',
                     shadowBlur: 10,
-                    shadowColor: '#dda0dd'
+                    shadowColor: '#333'
                 }
             },
             zlevel: 1

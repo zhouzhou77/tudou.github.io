@@ -467,7 +467,7 @@ option = {
     tooltip: {
         trigger: 'item',
         padding: 10,
-        backgroundColor: '#1540a1',
+        backgroundColor: '#222',
         borderColor: '#777',
         borderWidth: 1,
         enterable: true,
@@ -497,8 +497,8 @@ option = {
         itemStyle: {
             normal: {
                 show: 'true',
-                areaColor: '#04284e',
-                borderColor: '#5bc1c9'
+                areaColor: '#e6e6e6',
+                borderColor: '#111'
             },
             emphasis: {
                 show: 'true',

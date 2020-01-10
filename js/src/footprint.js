@@ -467,8 +467,8 @@ option = {
     tooltip: {
         trigger: 'item',
         padding: 10,
-        backgroundColor: '#222',
-        borderColor: '#777',
+        backgroundColor: '#1540a1',
+        borderColor: '#FFFFCC',
         borderWidth: 1,
         enterable: true,
         formatter: function (params) {
@@ -497,8 +497,9 @@ option = {
         itemStyle: {
             normal: {
                 show: 'true',
+                color: "#04284e", //地图背景色
                 areaColor: '#e6e6e6',
-                borderColor: '#111'
+                borderColor: '#5bc1c9'
             },
             emphasis: {
                 show: 'true',

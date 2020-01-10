@@ -461,14 +461,14 @@ var convertData = function (data) {
 };
 
 option = {
-    backgroundColor: '#000',
+    // backgroundColor: '#404a59',
     title: {
     },
     tooltip: {
         trigger: 'item',
         padding: 10,
-        backgroundColor: '#1540a1',
-        borderColor: '#FFFFCC',
+        backgroundColor: '#222',
+        borderColor: '#777',
         borderWidth: 1,
         enterable: true,
         formatter: function (params) {
@@ -497,14 +497,13 @@ option = {
         itemStyle: {
             normal: {
                 show: 'true',
-                color: "#04284e", //地图背景色
-                //areaColor: '#e6e6e6',
-                borderColor: '#5bc1c9'
+                areaColor: '#e6e6e6',
+                borderColor: '#111'
             },
             emphasis: {
                 show: 'true',
                 color: "rgba(37, 43, 61, .5)", //悬浮背景
-                //areaColor: '#cccccc'
+                areaColor: '#cccccc'
             }
         }
     },
